@@ -18,6 +18,7 @@
             android:layout_height="70dp"
             android:orientation="vertical">
             <TextView
+                android:maxLength="35"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/trackName"
@@ -26,11 +27,12 @@
                 android:text="trackName"
                 android:textColor="@android:color/black"/>
             <TextView
+                android:maxLength="28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/CollectionName"
                 android:textSize="12dp"
-                android:text="CollectionName"
+                android:text="CollectionaNam"
                 android:textColor="@android:color/black"/>
 
             <TextView
