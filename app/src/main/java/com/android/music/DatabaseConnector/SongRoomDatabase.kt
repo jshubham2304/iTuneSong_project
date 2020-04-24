@@ -37,11 +37,6 @@ abstract class SongRoomDatabase : RoomDatabase() {
             }
         }
 
-
-
-
-
-
         private class SongDatabaseCallback(
             private val scope: CoroutineScope
         ) : RoomDatabase.Callback() {
