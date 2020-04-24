@@ -18,16 +18,16 @@
             android:layout_height="70dp"
             android:orientation="vertical">
             <TextView
-                android:maxLength="35"
+                android:maxLength="32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/trackName"
-                android:textSize="16dp"
+                android:textSize="14dp"
                 android:textStyle="bold"
                 android:text="trackName"
                 android:textColor="@android:color/black"/>
             <TextView
-                android:maxLength="28"
+                android:maxLength="25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/CollectionName"
